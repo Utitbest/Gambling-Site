@@ -349,7 +349,7 @@ startGame.onclick = function(){
             clear.disabled = true;
             sTubornMan.style.display = 'flex';
             Disabledbutton()
-            playMusic.play();
+            // playMusic.play();
             let pickArr = numberTocomeout[Math.floor(Math.random() * numberTocomeout.length)];
 
             systemNum.push(pickArr);
@@ -377,7 +377,7 @@ startGame.onclick = function(){
             startGame.disabled = false;
             Disabledbutton1()
             sTubornMan.style.display = 'none';
-            playMusic.pause();
+            // playMusic.pause();
             startGame.innerHTML = 'Play again';
             falloutanimation.classList.remove('playanimation');
             falloutanimations.classList.remove('roller');
