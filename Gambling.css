@@ -49,7 +49,7 @@
 
 .sTubornMan{
     width: 100%;
-    height: 65vh;
+    height: 100%;
     display: none;
     position: absolute;
     top: 0;
@@ -149,6 +149,8 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: darkred;
     border-radius: 8px;
     user-select: none;
@@ -624,6 +626,11 @@
     color: red;
     cursor: pointer;
 }
+.html::-webkit-scrollbar{
+    display: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
 @media only screen and (max-width:1029px){
     .section1{
         width: 50%;
@@ -673,4 +680,82 @@
     .stakeAmmount{
         width: 87%;
     }
+    .section2 .gameStartwrap p{
+        font-size: 25px;
+    }
+    .leftPipe{
+        width: 100%;
+        left: 0;
+    }
+}
+@media only screen and (max-width:972px){
+    .rst{
+        width: 59px;
+        height: 59px;
+    }
+    .roller{
+        width: 70px;
+        height: 70px;
+    }
+    .section2 .gameBubblewrap .bubbleMain{
+        width: 90%;
+    }
+    .bubble{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media only screen and (max-width:882px){
+    .gbese{
+        height: 45px;
+        width: 45px;
+    }
+    .rst{
+        font-size: 21px;
+        width: 55px;
+        height: 55px;
+        border: 4px solid orange;
+    }
+    .resultshow{
+        gap: 17px;
+    }
+}
+@media only screen and (max-width:850px){
+    .game{
+        height: auto;
+    }
+    .sectionwrapper{
+        flex-direction: column-reverse;
+    }
+    .section2 .gameBubblewrap{
+        display: none;
+    }
+    .LastNumbers{
+        font-size: 13px;
+        padding: 3px 4px;
+    }
+    .section2{
+        width: 100%;
+        height: 20vh;
+    }
+    .section1{
+        width: 100%;
+        height: 80vh;
+        gap: 8px;
+        padding: 0 7px;
+    }
+    .picker{
+        height: 60vh;
+    }
+    .section2 .gameStartwrap{
+        height: 100%;
+    }
+    .resultshow{
+        justify-content: space-around;
+        gap: 0;
+    }
+    .ourboys{
+        justify-content: space-around;
+        gap: 0;
+    }   
 }
