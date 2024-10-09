@@ -771,7 +771,7 @@
         gap: 11%;
     }
     .ourboys{
-        gap: 0;
+        gap: 12%;
     }
     .stakeAmmount{
         overflow: auto;
@@ -780,6 +780,11 @@
 @media only screen and (max-width:765px){
     .resultshow{
         gap: 10%;
+    }
+}
+@media only screen and (max-width:710px){
+    .ourboys{
+        gap:10%;
     }
 }
 @media only screen and (max-width:700px){
@@ -792,9 +797,24 @@
         gap: 7%;
     }
 }
+@media only screen and (max-width:570px){
+    .ourboys{
+        gap:9%;
+    }
+}
 @media only screen and (max-width:535px){
     .resultshow{
         gap: 5%;
+    }
+}
+@media only screen and (max-width:520px){
+    .ourboys{
+        gap:8%;
+    }
+}
+@media only screen and (max-width:470px){
+    .ourboys{
+        gap:7%;
     }
 }
 @media only screen and (max-width:450px){
@@ -804,6 +824,11 @@
     }
     .LastNumbers{
         display: none;
+    }
+}
+@media only screen and (max-width:440px){
+    .ourboys{
+        gap:6%;
     }
 }
 @media only screen and (max-width:430px){
@@ -825,10 +850,16 @@
         height: 48px;
         border: 3px solid silver;
     }
+    .ourboys{
+        gap:5%;
+    }
 }
 @media only screen and (max-width:390px){
     .resultshow{
         gap: 3%;
+    }
+    .ourboys{
+        gap:4%;
     }
 }
 @media only screen and (max-width:370px){
@@ -848,11 +879,18 @@
     .resultshow{
         gap: 2%;
     }
+    .ourboys{
+        gap: 3%;
+    }
 }
 @media only screen and (max-width:350px){
     .rst{
         height: 45px;
         width: 45px;
+    }
+    .gbese{
+        height: 40px;
+        width: 40px;
     }
 }
 @media only screen and (max-width:330px){
