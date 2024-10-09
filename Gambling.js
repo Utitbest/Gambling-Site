@@ -720,8 +720,8 @@ startGame.onclick = function(){
                 WinAmount = 400;
                 addSubtract(WinAmount, 'add');
                 game.insertAdjacentElement('afterbegin', FunNotification('Yeah!!!! you\'ve won  &#8358;' + WinAmount));
-                closingPrayer();
                 RibbonDrop();
+                closingPrayer();
                 return;
             }
 
