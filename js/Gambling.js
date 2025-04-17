@@ -1050,7 +1050,7 @@ function RibbonDrop(){
         c = CreateElement('span')
         c.className = 'HappyDay';
         b.append(c);  
-        c.style.setProperty('animation-delay', Num + 's') 
+        c.style.setProperty('animation-delay', Num + 's')  
     }
     a.append(b);
     game.append(a);
